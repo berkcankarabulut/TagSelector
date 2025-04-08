@@ -1,0 +1,11 @@
+{
+  "name": "com.berkcankarabulut.tagselector",
+  "version": "1.0.0",
+  "displayName": "Tag Selector",
+  "description": "",
+  "author": {
+    "name": "Berkcan Karabulut",
+    "url": "https://github.com/berkcankarabulut"
+  },
+  "dependencies": {}
+}
