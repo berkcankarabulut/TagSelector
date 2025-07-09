@@ -5,8 +5,8 @@ using UnityEditor;
 
 namespace TagSelector.Editor
 {  
-    [CustomPropertyDrawer(typeof(TagSelectorAttribute))] 
-    public class TagSelectorDrawer : PropertyDrawer
+    [CustomPropertyDrawer(typeof(TagsAttribute))] 
+    public class TagsDrawer : PropertyDrawer
     {
         public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
         {
@@ -59,7 +59,7 @@ namespace TagSelector.Editor
             
             if (property.isArray)
             {
-                return lineHeight + ((property.arraySize * lineHeight) / 5);
+                return lineHeight + ((property.arraySize * lineHeight) / 10);
             }
             
             return lineHeight;
